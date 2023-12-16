@@ -67,7 +67,7 @@ class NearbyViewModel(application: Application) : AndroidViewModel(application) 
             NearbyDatabaseRepo.getNearbyRepos(getApplication<Application>())
         }
     }
-git
+
    /* fun fetchMoreVenues(position: Int,lat:String,long:String,dist : String){
         apiInterface.fetchLocation(position,lat,long,dist).enqueue(object : Callback<LocationDataModel> {
             override fun onResponse(
